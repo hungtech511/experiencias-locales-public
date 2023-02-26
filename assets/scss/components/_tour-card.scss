@@ -1,0 +1,48 @@
+@use "../helpers/variable";
+.tour__card {
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .card__content {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: variable.$whiteColor;
+    text-align: center;
+    margin-bottom: 20px;
+    p {
+      font-weight: 700;
+      font-size: 20px;
+    }
+  }
+  .content{
+    margin-top:20px;
+    line-height:25px;
+    text-align: justify;
+  }
+}
+
+
+.top__10--destination{
+  .row{
+    // display: grid;
+    // grid-template-columns: repeat(3, minmax(0, 1fr));
+    // gap:30px;
+    // .tour__card:not(.keep__height){
+    //   grid-row: span 2;
+    //   height:fit-content;
+    // }
+    // .keep__height{
+    //   grid-row: span 1 / span 1;
+    // }
+    .tour__card{
+      img{
+          width: 100%;
+          display: block;
+          // height:100%;
+      }
+  }
+  }
+}

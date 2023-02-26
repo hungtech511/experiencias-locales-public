@@ -1,0 +1,48 @@
+@use "../helpers/variable";
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+.about__us--section {
+  .box__content {
+    &--item {
+      p {
+        line-height: 25px;
+        text-align: justify;
+        a {
+          font-weight: 700;
+          color: variable.$primaryColor;
+        }
+        strong {
+          font-weight: 700;
+        }
+        &:last-of-type {
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+  .why__travel {
+    h2 {
+      margin-bottom: 20px;
+    }
+    ul.why__travel--list {
+      li {
+        display: flex;
+        align-items: center;
+        div:first-child {
+          margin-right: 14px;
+        }
+      }
+      * + li {
+        margin-top:10px;
+      }
+    }
+  }
+  @include media-breakpoint-down(md) {
+    .box__content{
+      margin-bottom:30px;
+    }
+  }
+}
