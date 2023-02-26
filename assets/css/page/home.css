@@ -245,7 +245,7 @@ button[disabled]:hover {
 }
 .home__box--search .box__search--desktop {
   height: 111px !important;
-  background: url("/assets/image/background/bgtab.png") bottom repeat-x;
+  background: url("../../assets/image/background/bgtab.png") bottom repeat-x;
 }
 .home__box--search .box__search--mobile .accordion-button {
   padding: 13px 0;

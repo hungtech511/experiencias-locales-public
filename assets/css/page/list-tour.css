@@ -41,7 +41,7 @@
 }
 .page__pagination > .page__active {
   color: #fff !important;
-  background: #00947d;
+  background: #f60001;
   border: none;
 }
 .page__pagination > .page__active a {

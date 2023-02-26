@@ -12674,7 +12674,7 @@ button[disabled]:hover {
 }
 .home__box--search .box__search--desktop {
   height: 111px !important;
-  background: url("/assets/image/background/bgtab.png") bottom repeat-x;
+  background: url("../../assets/image/background/bgtab.png") bottom repeat-x;
 }
 .home__box--search .box__search--mobile .accordion-button {
   padding: 13px 0;
@@ -12891,7 +12891,7 @@ button[disabled]:hover {
 }
 .page__pagination > .page__active {
   color: #fff !important;
-  background: #00947d;
+  background: #f60001;
   border: none;
 }
 .page__pagination > .page__active a {
